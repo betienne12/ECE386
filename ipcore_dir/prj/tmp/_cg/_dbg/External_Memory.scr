@@ -1,0 +1,15 @@
+set -xsthdpdir "U:/ECE 368/Project_pt1(3)/Project_pt1/ipcore_dir/prj/tmp/_cg/_dbg/External_Memory_xsd"
+run
+-ifn "U:/ECE 368/Project_pt1(3)/Project_pt1/ipcore_dir/prj/tmp/_cg/_dbg/External_Memory.prj"
+-ifmt VHDL
+-ofmt NGC
+-ofn "U:/ECE 368/Project_pt1(3)/Project_pt1/ipcore_dir/prj/tmp/_cg/_dbg/External_Memory.ngc"
+-p xc3s500e-4fg320
+-iobuf NO
+-work_lib work
+-ent External_Memory
+-arch spartan3e
+-top External_Memory
+-bus_delimiter <>
+-lso "U:/ECE 368/Project_pt1(3)/Project_pt1/ipcore_dir/prj/tmp/_cg/_dbg/_default.lso"
+-use_new_parser yes
